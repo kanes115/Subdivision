@@ -52,11 +52,6 @@ int main(int argc, char** argv) {
   int d = boost::lexical_cast<int>(argv[1]);
   const char* in_file = argv[2];
 
-  const char* catmull_out_file = "catmull_clark_result.off";
-  const char* doo_out_file = "doo_sabin_result.off";
-  const char* loop_out_file = "loop_result.off";
-  const char* sqrt3_out_file = "sqrt3_result.off";
-
   PolygonMesh pmesh;
   std::ifstream in(in_file);
   if(in.fail()) {

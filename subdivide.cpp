@@ -43,7 +43,7 @@ void doSubdivision(PolygonMesh pmesh, std::string method, int d) {
 
 int main(int argc, char** argv) {
   if (argc != 2) {
-    cerr << "Usage: " << argv[0] << " [d] [filename_in] \n";
+    cerr << "Usage: " << argv[0] << " d filename_in \n";
     cerr << "         d -- the depth of the subdivision \n";
     cerr << "         filename_in -- the input mesh (.off) \n";
     cerr << endl;
